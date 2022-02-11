@@ -14,6 +14,10 @@ exports.up = pgm => {
     password: {
       type: 'TEXT',
       notNull: true,
+    },
+    fullname: {
+      type: 'TEXT',
+      notNull: true,
     }
   })
 };
